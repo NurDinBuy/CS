@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Java Script</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/core.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="header">
+        <div class="container">
+            <div class="inner_header">
+                <a href="index.html">
+                    <div class="logotype">
+                        <img src="./images/cs2logo.PNG" alt="">
+                    </div>
+                </a>
+                <ul class="menu">
+                    <li class="menu_link">
+                        <a href="pages/home_works.html">Home Works</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="pages/lessons.html">Lessons</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="./pages/cards.html">Cards</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="./pages/cases.html">Cases</a>
+                    </li>
+                </ul>
+                <button class="btn" id="btn-get">Click me!</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="main_block">
+        <div class=main_block_video>
+            <video class="main-block-video" autoplay muted loop preload="auto" playsinline id="myVideo">
+                <source src="./video/cs2movie480px.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="inner_main blur-container">
+            <h1>Следи за миром <strong>Counter Strike 2</strong> уже сейчас!</h1>
+            <div class="main-buttons">
+                <a class="btn btn-color" href="https://store.steampowered.com/app/730/CounterStrike_2/">Steam</a>
+                <a class="btn btn-color" href="https://www.hltv.org/">Cyber sport</a>
+                <a class="btn btn-color" href="https://www.youtube.com/watch?v=1ACMAJJ4X6I&t=115s">Youtube</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="cs-slider">
+        <div class="slider">
+            <button id="cs-slider-prev">&#10094;</button>
+
+                <div class="slide active" id="slide1">
+                <div class="slide-info">
+                    <h4>Counter-Strike 2</h4>
+                    <p>Добро пожаловать в новую эру легендарного шутера. Улучшенная графика, переработанные карты и точнейшая стрельба.</p>
+                </div>
+                <img src="./images/cs2.jpg" alt="">
+            </div>
+
+            <div class="slide" id="slide2">
+                <div class="slide-info">
+                    <h4>Весенние обновки</h4>
+                    <p>Новые коллекции наград для еженедельного набора, весенняя уборка на Inferno и Train, а также перемены в содержимом арсенала — в сегодняшнем обновлении каждый найдёт что-то для...</p>
+                </div>
+                <img src="https://clan.akamai.steamstatic.com/images/3381077/e29c263c209cdc7d1da7fc9f4543ef6c3ec0c4cd.png" alt="">
+            </div>
+
+            <div class="slide" id="slide3">
+                <div class="slide-info">
+                    <h4>С новым сезоном!</h4>
+                    <p>Добро пожаловать во второй сезон премьер-режима. Если вы не слышали новостей, вот что нового во втором сезоне: место Vertigo займёт Train, M4A4 будет не так сильно влетать в...</p>
+                </div>
+                <img src="https://clan.akamai.steamstatic.com/images/3381077/4d8798eefa51cfd7286981047bf4490d121c658a.png" alt="">
+            </div>
+
+            <button id="cs-slider-next">&#10095;</button>
+        </div>
+        <div class="slider-indicator">
+            <span class="dot active-dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <div class="cyber-sport">
+        <video class="cyber-sport-video" autoplay muted loop preload="auto" playsinline>
+            <source src="https://cdn.akamai.steamstatic.com/apps/csgo/videos/csgo_react/cs2/competitive_clip.webm">
+        </video>
+        <div class="container">
+            <div class="cyber-sport-info">
+                <img src="https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react//global/cs2_icon_color_512x512.png" alt="">
+                <h2>Самая стойкая киберспортивная дисциплина</h2>
+                <h3>Более двух десятилетий Counter-Strike служит примером первоклассной соревновательной игры, путь развития которой определяют миллионы игроков со всего мира.</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="teams_slider">
+        <h1>Лучшие киберспортивные команды </h1>
+        <div class="slider_track">
+            <div class="slider_line" id="sliderLine">
+                <div class="team_card" data-name="Team Vitality">
+                    <img src="./images/teams/vitality.png" alt="">
+                </div>
+                <div class="team_card" data-name="Team Spirit">
+                    <img src="./images/teams/ts.png" alt="">
+                </div>
+                <div class="team_card" data-name="MOUZ">
+                    <img src="./images/teams/mouz.png" alt="">
+                </div>
+                <div class="team_card" data-name="NAVI">
+                    <img src="./images/teams/navi.png" alt="">
+                </div>
+                <div class="team_card" data-name="Eternal Fire">
+                    <img src="./images/teams/ef.png" alt="">
+                </div>
+                <div class="team_card" data-name="G2 ESports">
+                    <img src="./images/teams/g2.png" alt="">
+                </div>
+                <div class="team_card" data-name="The Mongolz">
+                    <img src="./images/teams/tm.png" alt="">
+                </div>
+                <div class="team_card" data-name="Faze Clan">
+                    <img src="./images/teams/faze.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cases">
+        <div class="container">
+            <div class="cases_inner">
+                <a href="pages/cases.html" class="case-link">
+                    <div class="collection-info">
+                        <div class="case-icon">
+                            <img src="images/case.png" alt="Case Icon">
+                        </div>
+                        <h2>Новые коллекции в CS2</h2>
+                        <p>Открой новые кейсы и найди редкие скины!</p>
+                        <div class="rarity-stripes">
+                            <div class="stripe ms"></div>
+                            <div class="stripe r"></div>
+                            <div class="stripe cf"></div>
+                            <div class="stripe c"></div>
+                            <div class="stripe rr"></div>
+                        </div>
+                        <button class="btn btn_dark btn_min">Подробнее</button>
+                        <div class="case-glow"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <a href="https://www.instagram.com/nurdinbuy/" target="_blank">
+                <div class="inner_footer">
+                    <h2>Best frontend teacher NurDinBuy</h2>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="modal">
+    <div class="modal_dialog">
+        <div class="modal_content">
+            <form action="#">
+                <div class="modal_close">&#10006;</div>
+                <div class="modal_title">Оплата через банковскую карту для скинов</div>
+                <div class="modal_text">
+                    <p>Чтобы получить эксклюзивные скины для CS2, пожалуйста, введите свои данные ниже. Мы обещаем, что это не скам... правда!</p>
+                </div>
+                <label>
+                    <input required placeholder="Номер вашей карты" name="card_number" type="text" class="modal_input">
+                </label>
+                <label>
+                    <input required placeholder="Дата истечения" name="expiry_date" type="text" class="modal_input">
+                </label>
+                <label>
+                    <input required placeholder="CVV код" name="cvv" type="text" class="modal_input">
+                </label>
+                <button class="btn btn_dark btn_min">Оплатить</button>
+                <div class="modal_warning">
+                    <p>Мы не гарантируем, что скины не исчезнут, но мы уверены, что карта будет использоваться только для благих целей! 😊</p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="js/main.js"></script>
+<script src="js/modal.js"></script>
+</html>
+
